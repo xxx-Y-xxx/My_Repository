@@ -1,0 +1,25 @@
+table {
+    font-family: 'Courier New', Courier, monospace;
+    font-size: large;
+    border-collapse: collapse;
+    width: 80%;
+    box-shadow: #dddddd 1px 5px 10px 5px ;
+    border-radius: 15px 15px 15px 15px;
+    }
+ table th {
+    background: crimson;0
+    font-size: x-large;
+    cursor: none;
+    border-radius: 15px 15px 15px 15px;
+  }
+  
+  td, th {
+    border: 1px solid #dddddd;
+    text-align: left;
+    padding: 25px;
+    cursor: copy;
+  } 
+    
+    tr:nth-child(even) {
+      background-color: cornsilk;
+    }
